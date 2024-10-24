@@ -19,6 +19,10 @@ var movies = [
     new bookClass('Movie/17.jpg','結婚のすべて','岡本喜八','', new Date(2024,10-1,18),'1958'),
     new bookClass('Movie/18.jpg','二重のまち／交代地のうたを編む','小森はるか','', new Date(2024,10-1,19),'2019 '),
     new bookClass('Movie/19.jpg','映画館の恋','ホン・サンス','', new Date(2024,10-1,20),'2006'),
+    new bookClass('Movie/20.jpg','ユリイカ','青山真治','', new Date(2024,10-1,20),'2001'),
+    new bookClass('Movie/21.jpg','リスト','ホン・サンス','', new Date(2024,10-1,20),'2011'),
+    new bookClass('Movie/22.jpg','草の葉','ホン・サンス','', new Date(2024,10-1,20),'2018'),
+    new bookClass('Movie/23.jpg','川沿いのホテル','ホン・サンス','', new Date(2024,10-1,20),'2018'),
 
 ]
 
@@ -26,9 +30,26 @@ var movies = [
 movies[10].comment =
 `
 `
+movies[22].comment =
+`
+面白い。ホン・サンスで一番おもしろかったかも。
+`
+movies[21].comment =
+`
+ちょっと困惑した。困惑できて嬉しいけど。
+これが『川沿いのホテル』と同じ年に公開されてるのか。
+`
+movies[20].comment =
+`
+良い短編、爽やかさがあった。
+`
+movies[19].comment =
+`
+博多弁が良かった。光石研の北九弁も良かった。
+`
 movies[18].comment =
 `
-好き。2部目で目が覚めてきた。バキバキに感動した。やっぱホン・サンス好き。
+好き。2部目で目が覚めてきた。バキバキに感動した。
 映画館出てから、街がいい感じに見れるようになった。
 `
 movies[16].comment =
