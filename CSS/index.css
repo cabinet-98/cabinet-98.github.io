@@ -273,6 +273,7 @@ a:visited {
   cursor: pointer;
   position: fixed;
   right: 30px;
+  text-align: right;
   bottom: 30px;
   display: flex;
   align-items: center;
