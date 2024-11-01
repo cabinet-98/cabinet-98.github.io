@@ -25,9 +25,10 @@ var books = [
     new bookClass('Cabinet/7.jpg','人間失格','太宰治','',new Date(2024, 9-1 , 22)),
     new bookClass('Cabinet/8.jpg','フラニーとズーイ','サリンジャー 村上春樹 訳','',new Date(2024, 9-1 , 30)),
     new bookClass('Cabinet/9.jpg','異邦人 ','カミュ 窪田啓作 訳','', new Date(2024, 10-1 , 2)),
-    new bookClass('Cabinet/10.jpg','歩くこと、または飼いならされずに詩的な人生を生きる術','トマス・エスペダル','',new Date(2024, 9-1 , 30)),
+    new bookClass('Cabinet/10.jpg','歩くこと、または飼いならされずに詩的な人生を生きる術','トマス・エスペダル','',new Date(2024, 11-1 , 1)),
     new bookClass('Cabinet/11.jpg','螢・納屋を焼く・その他の短編','村上春樹','',new Date(2024, 10-1 , 17)),
     new bookClass('Cabinet/12.jpg','棘まで美し','武者小路実篤','',new Date(2024, 10-1 , 17)),
+    new bookClass('Cabinet/13.jpg','ラファティ・ベスト・コレクション2 ファニーフィンガーズ','R・A・ラファティ','',new Date(2024, 11-1 , 1)),
 
 ]
 function WriteLastContent(x,y){
@@ -99,6 +100,14 @@ window.addEventListener("scroll", function(){
 
 books[8].comment =
 `
+`
+books[9].comment =
+`
+高級な自己啓発本
+`
+books[11].comment =
+`
+描写が殆どなかった。
 `
 books[10].comment =
 `

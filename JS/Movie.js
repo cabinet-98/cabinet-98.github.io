@@ -17,12 +17,15 @@ var movies = [
     new bookClass('Movie/15.jpg','蛇の道','黒沢清','', new Date(2024,10-1,17),'2024'),
     new bookClass('Movie/16.jpg','あなた自身と、あなたのこと','ホン・サンス','', new Date(2024,10-1,10),'2016'),
     new bookClass('Movie/17.jpg','結婚のすべて','岡本喜八','', new Date(2024,10-1,18),'1958'),
-    new bookClass('Movie/18.jpg','二重のまち／交代地のうたを編む','小森はるか','', new Date(2024,10-1,19),'2019 '),
+    new bookClass('Movie/18.jpg','二重のまち／交代地のうたを編む','小森はるか','', new Date(2024,11-1,1),'2019 '),
     new bookClass('Movie/19.jpg','映画館の恋','ホン・サンス','', new Date(2024,10-1,20),'2006'),
-    new bookClass('Movie/20.jpg','ユリイカ','青山真治','', new Date(2024,10-1,20),'2001'),
-    new bookClass('Movie/21.jpg','リスト','ホン・サンス','', new Date(2024,10-1,20),'2011'),
-    new bookClass('Movie/22.jpg','草の葉','ホン・サンス','', new Date(2024,10-1,20),'2018'),
-    new bookClass('Movie/23.jpg','川沿いのホテル','ホン・サンス','', new Date(2024,10-1,20),'2018'),
+    new bookClass('Movie/20.jpg','ユリイカ','青山真治','', new Date(2024,10-1,22),'2001'),
+    new bookClass('Movie/21.jpg','リスト','ホン・サンス','', new Date(2024,10-1,23),'2011'),
+    new bookClass('Movie/22.jpg','草の葉','ホン・サンス','', new Date(2024,10-1,23),'2018'),
+    new bookClass('Movie/23.jpg','川沿いのホテル','ホン・サンス','', new Date(2024,10-1,23),'2018'),
+    new bookClass('Movie/24.jpg','異国日記','瀬田なつき','', new Date(2024,10-1,30),'2018'),
+    new bookClass('Movie/25.jpg','夜明けのすべて','三宅唱','', new Date(2024,10-1,30),'2024'),
+    new bookClass('Movie/26.jpg','サタンタンゴ','タル・ベーラ','', new Date(2024,10-1,31),'1994'),
 
 ]
 
@@ -30,14 +33,29 @@ var movies = [
 movies[10].comment =
 `
 `
+movies[25].comment =
+`
+純粋な映画ってあんま好きじゃないかも。長回しのほうが疲労溜まりにくいね。
+`
+movies[17].comment =
+`
+ガチおもんない。
+`
+movies[24].comment =
+`
+最後まで見れた。
+`
+movies[23].comment =
+`
+おもんなすぎて、映画館抜けて早稲田散歩した。天気が良く、幸福を感じた。
+`
 movies[22].comment =
 `
 面白い。ホン・サンスで一番おもしろかったかも。
 `
 movies[21].comment =
 `
-ちょっと困惑した。困惑できて嬉しいけど。
-これが『川沿いのホテル』と同じ年に公開されてるのか。
+ちょっと困惑した。困惑できて嬉しいけど。面白くなかったね。
 `
 movies[20].comment =
 `

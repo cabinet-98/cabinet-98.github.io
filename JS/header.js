@@ -80,13 +80,13 @@ var header = `
     
     <li id = "headerList">
       <a href="SplendidOceanBlue.html">
-        Splendid Ocean Blue
+        Xanadu
       </a>
     </li>
     
     <li id = "headerList">
       <a href="ThatsTheWayILikeIt.html">
-        That's The Way I Like It
+        Hotel By The River
       </a>
     </li>
 
