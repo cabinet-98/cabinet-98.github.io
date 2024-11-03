@@ -77,7 +77,12 @@ var header = `
         Home
       </a>
     </li>
-    
+
+    <li id = "headerList">
+      <a href="truth.html">
+        真実の部屋
+      </a>
+    </li>
     <li id = "headerList">
       <a href="SplendidOceanBlue.html">
         Xanadu
