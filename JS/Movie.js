@@ -26,12 +26,48 @@ var movies = [
     new bookClass('Movie/24.jpg','異国日記','瀬田なつき','', new Date(2024,10-1,30),'2018'),
     new bookClass('Movie/25.jpg','夜明けのすべて','三宅唱','', new Date(2024,10-1,30),'2024'),
     new bookClass('Movie/26.jpg','サタンタンゴ','タル・ベーラ','', new Date(2024,10-1,31),'1994'),
+    new bookClass('Movie/27.jpg','サスペリア','ダリオ・アルジェント','', new Date(2024,11-1,1),'1977'),
+    new bookClass('Movie/28.jpg','アンダーグラウンド','小田香','', new Date(2024,11-1,2),'2024'),
+    new bookClass('Movie/29.jpg','自由が丘で','ホン・サンス','', new Date(2024,11-1,2),'2014'),
+    new bookClass('Movie/30.jpg','ストレンジ・ウェイ・オブ・ライフ','ペドロ・アルモドバル','2023', new Date(2024,11-1,4),'1994'),
+    new bookClass('Movie/31.jpg','ノスタルジア','アンドレイ・タルコフスキー','', new Date(2024,11-1,5),'1983'),
+    new bookClass('Movie/32.jpg','レニングラード・カウボーイズ・ゴー・アメリカ','アキ・カウリスマキ','', new Date(2024,11-1,6),'1990'),
+    new bookClass('Movie/33.jpg','空に聞く','小森はるか','', new Date(2024,11-1,7),'2018'),
 
 ]
 
 
 movies[10].comment =
 `
+`
+movies[32].comment =
+`
+おもろかった。カメラまわしたい僕も。
+`
+movies[31].comment =
+`
+良い。タイトルから良いもんね。
+`
+movies[30].comment =
+`
+寢らんかった。
+`
+movies[29].comment =
+`
+つまらんかった。
+`
+movies[28].comment =
+`
+お口直しに夜中見始めたけど、寝落ちしちまった。
+`
+movies[27].comment =
+`
+タル・ベーラとはぜんぜん違う感じなんやね。ときどき目覚めさせてくる。
+でもサタンタンゴのほうがすきだな♡
+`
+movies[26].comment =
+`
+笑った。
 `
 movies[25].comment =
 `
