@@ -35,12 +35,18 @@ var movies = [
     new bookClass('Movie/33.jpg','空に聞く','小森はるか','', new Date(2024,11-1,7),'2018'),
     new bookClass('Movie/34.jpg','逃げた女','ホン・サンス','', new Date(2024,11-1,8),'2020'),
     new bookClass('Movie/35.jpg','ヴェルクマイスター・ハーモニー','タル・ベーラ','', new Date(2024,11-1,10),'2000'),
+    new bookClass('Movie/36.jpg','3人のアンヌ','ホン・サンス','', new Date(2024,11-1,13),'2012'),
 
 ]
 
 
 movies[10].comment =
 `
+`
+
+movies[35].comment =
+`
+予告がめちゃくちゃ良い。一編目号泣。新宿御苑の芝生で寝転がって観た。
 `
 movies[34].comment =
 `
