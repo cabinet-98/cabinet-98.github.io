@@ -40,6 +40,13 @@ var movies = [
     new bookClass('Movie/38.jpg','EO','イエジー・スコリモフスキ','', new Date(2024,11-1,19),'2022'),
     new bookClass('Movie/39.jpg','パリでかくれんぼ','ジャック・リヴェット','', new Date(2024,11-1,20),'1995'),
     new bookClass('Movie/40.jpg','彼女たちの舞台','ジャック・リヴェット','', new Date(2024,11-1,20),'1998'),
+    new bookClass('Movie/41.jpg','CUT','アミール・ナデリ','', new Date(2024,11-1,22),'2011'),
+    new bookClass('Movie/42.jpg','台北ストーリー','エドワード・ヤン','', new Date(2024,11-1,23),'1985'),
+    new bookClass('Movie/43.jpg','恋恋風塵','ホウ・シャオシェン','', new Date(2024,11-1,23),'1986'),
+    new bookClass('Movie/44.jpg','青春神話','ツァイ・ミンリャン','', new Date(2024,11-1,23),'1992'),
+    new bookClass('Movie/45.jpg','それから','ホン・サンス','', new Date(2024,11-1,24),'2017'),
+    new bookClass('Movie/46.jpg','ワイルド・スピードx3 TOKYO DRIFT','ジャスティン・リン','', new Date(2024,11-1,24),'2006'),
+    new bookClass('Movie/47.jpg','クレアのカメラ','ホン・サンス','', new Date(2024,11-1,27),'2017'),
 
 ]
 
