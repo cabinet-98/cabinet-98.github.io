@@ -47,6 +47,10 @@ var movies = [
     new bookClass('Movie/45.jpg','それから','ホン・サンス','', new Date(2024,11-1,24),'2017'),
     new bookClass('Movie/46.jpg','ワイルド・スピードx3 TOKYO DRIFT','ジャスティン・リン','', new Date(2024,11-1,24),'2006'),
     new bookClass('Movie/47.jpg','クレアのカメラ','ホン・サンス','', new Date(2024,11-1,27),'2017'),
+    new bookClass('Movie/48.jpg','冬の旅','アニエス・バルダ','', new Date(2024,11-1,29),'1985'),
+    new bookClass('Movie/49.jpg','戦艦ポチョムキン','セルゲイ・エイゼンシュテイン','', new Date(2024,11-1,29),'1925'),
+    new bookClass('Movie/50.jpg','クレアのカメラ','ホン・サンス','', new Date(2024,11-1,29),'2017'),
+    new bookClass('Movie/51.jpg','ゲームの規則','ジャン・ルノワール','', new Date(2024,11-1,30),'1939'),
 
 ]
 
