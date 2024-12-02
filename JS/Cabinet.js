@@ -30,6 +30,7 @@ var books = [
     new bookClass('Cabinet/12.jpg','棘まで美し','武者小路実篤','',new Date(2024, 10-1 , 17)),
     new bookClass('Cabinet/13.jpg','ラファティ・ベスト・コレクション2 ファニーフィンガーズ','R・A・ラファティ','',new Date(2024, 11-1 , 1)),
     new bookClass('Cabinet/14.jpg','松本','松本人志','',new Date(2024, 11-1 , 27)),
+    new bookClass('Cabinet/15.jpg','ヒッピーの教科書','Spectator','',new Date(2024, 12-1 , 2)),
 
 ]
 function WriteLastContent(x,y){
@@ -76,9 +77,6 @@ window.addEventListener('load', function() {
     });
 });
 
-
-
-
 window.addEventListener('load', function(){
 // セレクタ名（.pagetop）に一致する要素を取得
 pagetop_btn = document.querySelector(".pagetop");
@@ -102,7 +100,22 @@ window.addEventListener("scroll", function(){
 books[8].comment =
 `
 `
-books[10].comment =
+books[14].comment =
+`
+友人がよくヒッピーという言葉を口にし、僕のことをヒッピー的だ、というので、
+どれこの本を読んでみよう、と思った。僕は最初に思っていた通りヒッピーに懐疑的というか、
+興味が湧かなかった。彼らの生活の中に素晴らしいものもあるが、全体的に矛盾だらけで
+、幼稚で面白くなかった。退屈な思想と退屈な人々。
+月並みな、神秘主義的なことを言う人にもうんざりだ。
+世界のすばらしさをしっかり見ようとしていないし、
+生についても、幸福についてもまるで理解できていない。
+<br><br>
+本の内容についてはとても面白かった。ヒッピーの実際的な生活、
+コミューンの写真。ビートとヒッピーの違い。パンクからみたヒッピー。
+パンクの話は特に面白かった（これがなかったらたいして面白くなかったかも。
+）。良い雑誌だと思う。
+`
+books[13].comment =
 `
 90年代のエッセイの面白さある。
 `
