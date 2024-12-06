@@ -51,11 +51,11 @@ var movies = [
     new bookClass('Movie/49.jpg','戦艦ポチョムキン','セルゲイ・エイゼンシュテイン','', new Date(2024,11-1,29),'1925'),
     new bookClass('Movie/50.jpg','クレアのカメラ','ホン・サンス','', new Date(2024,11-1,29),'2017'),
     new bookClass('Movie/51.jpg','ゲームの規則','ジャン・ルノワール','', new Date(2024,11-1,30),'1939'),
-    new bookClass('Movie/52.jpg','アンゼルム　"傷ついた世界"の芸術家','ヴィム・ヴェンダース','', new Date(2024,11-1,30),'1939'),
-    new bookClass('Movie/53.jpg','関心領域','ジョナサン・グレイザー','', new Date(2024,11-1,30),'2024'),
-    new bookClass('Movie/54.jpg','ハイゼ家 百年','トーマス・ハイゼ','', new Date(2024,11-1,30),'2021'),
-    new bookClass('Movie/55.jpg','動物界','トマ・カイエ','', new Date(2024,11-1,30),'2024'),
-    new bookClass('Movie/56.jpg','リュミエール！リュミエール！','ティエリー・フレモー','', new Date(2024,11-1,30),'2024'),
+    new bookClass('Movie/52.jpg','アンゼルム　"傷ついた世界"の芸術家','ヴィム・ヴェンダース','', new Date(2024,12-1,3),'1939'),
+    new bookClass('Movie/53.jpg','関心領域','ジョナサン・グレイザー','', new Date(2024,12-1,3),'2024'),
+    new bookClass('Movie/54.jpg','ハイゼ家 百年','トーマス・ハイゼ','', new Date(2024,12-1,4),'2021'),
+    new bookClass('Movie/55.jpg','動物界','トマ・カイエ','', new Date(2024,12-1,4),'2024'),
+    new bookClass('Movie/56.jpg','リュミエール！リュミエール！','ティエリー・フレモー','', new Date(2024,12-1,5),'2024'),
 
 ]
 
