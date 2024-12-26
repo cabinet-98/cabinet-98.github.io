@@ -74,14 +74,29 @@ var movies = [
     new bookClass('Movie/72.jpg','小さな兵隊','ジャン=リュック・ゴダール','', new Date(2024,12-1,5),'2024'),
     new bookClass('Movie/73.jpg','赤と白','ヤンチョー・ミクローシュ','', new Date(2024,12-1,5),'2024'),
     new bookClass('Movie/74.jpg','赤い讃美歌','ヤンチョー・ミクローシュ','', new Date(2024,12-1,5),'2024'),
-    new bookClass('Movie/75.jpg','SUPER HAPPY FOREVER','五十嵐耕平','', new Date(2024,12-1,5),'2024'),
-    new bookClass('Movie/76.jpg','夜の浜辺でひとり','ホン・サンス','', new Date(2024,12-1,22),'2024'),
+    new bookClass('Movie/75.jpg','SUPER HAPPY FOREVER','五十嵐耕平','', new Date(2024,12-1,5),'2023'),
+    new bookClass('Movie/76.jpg','夜の浜辺でひとり','ホン・サンス','', new Date(2024,12-1,22),'2016'),
+    new bookClass('Movie/77.jpg','豚が井戸に落ちた日','ホン・サンス','', new Date(2024,12-1,23),'1996'),
+    new bookClass('Movie/78.jpg','PERFECT DAYS','ヴィム・ヴェンダース','', new Date(2024,12-1,24),'1996'),
+    new bookClass('Movie/79.jpg','ソニック・ザ・ムービー2','','', new Date(2024,12-1,25),'1996'),
 
 ]
 
 
-movies[10].comment =
+movies[70].comment =
 `
+`
+movies[76].comment =
+`
+ホン・サンスの最初の長編監督作。
+`
+movies[77].comment =
+`
+面白くない。カメラ的に好きじゃない。
+`
+movies[78].comment =
+`
+面白くない。音楽がかっこよくない。
 `
 movies[55].comment =
 `
