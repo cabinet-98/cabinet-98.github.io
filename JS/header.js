@@ -1,7 +1,18 @@
 const BlogName = 'Cabinet (キャビネット)';
 const BlogSubText = '家具的なブログ..';
 
-class pageClass{
+function getRandomInt(min, max) {
+  min = Math.ceil(min);
+  max = Math.floor(max+1);
+  return Math.floor(Math.random() * (max - min) + min); // 上限は除き、下限は含む
+}
+
+function setBgImg(x,y,z){
+  n = getRandomInt(x,y);
+  bg.setAttribute('src','BGImg/'+z+n+'.jpg');
+  return null;
+};
+class SubPageClass{
   constructor(title,file){
     this.title = title;
     this.file = file;
@@ -9,11 +20,11 @@ class pageClass{
 }
 
 var HeaderList = [
-  new pageClass('Top','index.html'),
-  new pageClass('Splendid Ocean Blue','movies.html'),
-  new pageClass('This is the way I like it','page.html'),
-  new pageClass('Cabinet','books.html'),
-  new pageClass('abaut','about.html'),
+  new SubPageClass('Top','index.html'),
+  new SubPageClass('Splendid Ocean Blue','movies.html'),
+  new SubPageClass('This is the way I like it','page.html'),
+  new SubPageClass('Cabinet','books.html'),
+  new SubPageClass('abaut','about.html'),
 ]
 
 
@@ -23,9 +34,10 @@ function writeHeader(){
     // Header.setAttribute('id', 'header');
 
     var Logo = document.createElement('div');
+    Header.appendChild(Logo);
     Logo.setAttribute('class', 'logo');
     Logo.textContent = BlogName;
-    Header.appendChild(Logo);
+    
 
     var SubLogo = document.createElement('div');
     SubLogo.setAttribute('class', 'sublogo');
@@ -55,29 +67,40 @@ function writeHeader(){
 var header = `
 <header id="header">
 
-<div class="logo">Cabinet (キャビネット)</div>
-<div class="sublogo">家具的なブログ..</div>
+<div class="logo">愛の国</div>
+<div class="sublogo"> ＿＿エロサイトです。 </div>
 
 
   <ul id= "headerList">
     <li id = "headerList">
-      <a href="index.html">
+      <a href="Home.html">
         Home
       </a>
     </li>
-    
+
     <li id = "headerList">
-      <a href="categories.html">
-        Categories
+      <a href="truth.html">
+        真実の部屋
+      </a>
+    </li>
+    <li id = "headerList">
+      <a href="SplendidOceanBlue.html">
+        Xanadu
       </a>
     </li>
     
     <li id = "headerList">
-      <a href="imageList.html">
-        Images
+      <a href="ThatsTheWayILikeIt.html">
+        Hotel By The River
       </a>
     </li>
-    
+
+    <li id = "headerList">
+      <a href="Cabinet.html">
+        Cabinet
+      </a>
+    </li>
+
     <li id = "headerList">
       <a href="about.html">
         About
